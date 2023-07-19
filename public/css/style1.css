@@ -1,0 +1,63 @@
+.comment-icon {
+    font-size: 2rem;
+    color: black;
+}
+
+.comment-box {
+    flex-grow: 5;
+}
+
+.comment-box textarea {
+    resize: 50%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    padding: 80px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.profile-details {
+    flex-grow: 1;
+}
+
+.profile-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-email,
+.profile-number {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-bio {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.profile-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
